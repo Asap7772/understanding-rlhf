@@ -1,7 +1,7 @@
 # Preference Fine-Tuning of LLMs Should Leverage Suboptimal On-Policy Data
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rlworkgroup/metaworld/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Asap7772/understanding-rlhf/blob/master/LICENSE)
 
-This is the official codebase of our paper ["Preference Fine-Tuning of LLMs Should Leverage Suboptimal On-Policy Data"]() by [Fahim Tajwar*](https://tajwarfahim.github.io/), [Anikait Singh*](https://asap7772.github.io/), [Archit Sharma](https://architsharma97.github.io/), [Rafael Rafailov](https://rmrafailov.github.io/), [Jeff Schneider](https://www.cs.cmu.edu/~schneide/), [Tengyang Xie](https://tengyangxie.github.io/), [Stefano Ermon](https://cs.stanford.edu/~ermon/), [Chelsea Finn](https://ai.stanford.edu/~cbfinn/) and [Aviral Kumar](https://aviralkumar2907.github.io/). For any questions/concerns related to this codebase, please reach out to [Fahim Tajwar](mailto:tajwarfahim932@gmail.com).
+This is the official codebase of our paper ["Preference Fine-Tuning of LLMs Should Leverage Suboptimal On-Policy Data"](https://understanding-rlhf.github.io/) by [Fahim Tajwar*](https://tajwarfahim.github.io/), [Anikait Singh*](https://asap7772.github.io/), [Archit Sharma](https://architsharma97.github.io/), [Rafael Rafailov](https://rmrafailov.github.io/), [Jeff Schneider](https://www.cs.cmu.edu/~schneide/), [Tengyang Xie](https://tengyangxie.github.io/), [Stefano Ermon](https://cs.stanford.edu/~ermon/), [Chelsea Finn](https://ai.stanford.edu/~cbfinn/) and [Aviral Kumar](https://aviralkumar2907.github.io/). For any questions/concerns related to this codebase, please reach out to [Anikait Singh](mailto:anikait@stanford.edu).
 
 
 ## Running experiments
@@ -23,8 +23,8 @@ We note the following additional datasets used in our LLM experiments:
 
 We acknowledge the following codebases for our paper:
 
-1. [HALOs](https://github.com/ContextualAI)
-2. [TRL](https://github.com/huggingface/trl)
-3. [DrQ-v2](https://arxiv.org/abs/2107.09645)
+1. [TRL](https://github.com/huggingface/trl) - Adapted for our synthetic LLM experiments.
+2. [DrQ-v2](https://arxiv.org/abs/2107.09645) - Used for our bandit experiments.
+3. [HALOs](https://github.com/ContextualAI) - Used for our DPO/Pref-FT experiments on UltraFeedback.
 
 We thank the authors for providing us with easy-to-work-with codebases.
