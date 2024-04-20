@@ -24,7 +24,8 @@ We note the following additional datasets used in our LLM experiments:
 We acknowledge the following codebases for our paper:
 
 1. [TRL](https://github.com/huggingface/trl) - Adapted for our synthetic LLM experiments.
-2. [DrQ-v2](https://arxiv.org/abs/2107.09645) - Used for our bandit experiments.
-3. [HALOs](https://github.com/ContextualAI) - Used for our DPO/Pref-FT experiments on UltraFeedback.
+2. [HALOs](https://github.com/ContextualAI) - Used for our DPO/Pref-FT experiments on UltraFeedback.
+3. [DrQ-v2](https://arxiv.org/abs/2107.09645) - Used for our bandit experiments.
+4. [minGPT](https://github.com/karpathy/minGPT/tree/master) - Used for our bandit experiments.
 
 We thank the authors for providing us with easy-to-work-with codebases.
